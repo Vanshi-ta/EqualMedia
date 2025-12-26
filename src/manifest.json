@@ -1,0 +1,22 @@
+{
+    "testId": "d936b73d-11c8-40f1-abf6-7348389fbb70",
+    "name": "Equal Media",
+    "version": "1.0.0",
+    "manifestVersion": 2,
+    "requirements": {
+        "apps": [
+            {
+                "name": "Express",
+                "apiVersion": 1
+            }
+        ]
+    },
+    "entryPoints": [
+        {
+            "type": "panel",
+            "id": "panel1",
+            "main": "index.html",
+            "documentSandbox": "code.js"
+        }
+    ]
+}
