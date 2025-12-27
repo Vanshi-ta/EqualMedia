@@ -1,6 +1,6 @@
 ## About
 
-This project has been created with _@adobe/create-ccweb-add-on_. As an example, this Add-on demonstrates how to get started with Add-on development using React and TypeScript with Document Sandbox Runtime.
+EqualMedia is an accessibility-focused Adobe Express add-on that helps creators turn ordinary content into inclusive, multi-modal media. It enables creators to add sign-language avatar overlays, auto-generated captions, and text-to-audio narration directly inside Adobe Express.
 
 ## Tools
 
@@ -8,9 +8,18 @@ This project has been created with _@adobe/create-ccweb-add-on_. As an example, 
 -   CSS
 -   React
 -   TypeScript
+-   Adobe Express Document SDK
+-   Google Cloud APIs (Speech-to-Text, Text-to-Speech)
 
 ## Setup
 
 1. To install the dependencies, run `npm install`.
-2. To build the application, run `npm run build`.
-3. To start the application, run `npm run start`.
+
+2. Configure API keys (optional):
+   - Copy `.env.example` to `.env`
+   - Fill in your Google Cloud API key (get it from [Google Cloud Console](https://console.cloud.google.com/apis/credentials))
+   - Note: API keys can also be entered directly in the add-on UI
+
+3. To build the application, run `npm run build`.
+
+4. To start the application, run `npm run start`.

@@ -1,0 +1,82 @@
+.avatar-panel {
+    padding: 16px;
+}
+
+.panel-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 8px 0;
+}
+
+.panel-description {
+    font-size: 14px;
+    color: #666;
+    margin: 0 0 16px 0;
+}
+
+.placeholder-notice {
+    padding: 12px;
+    background-color: #fff3cd;
+    border: 1px solid #ffc107;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    color: #856404;
+}
+
+.extract-button {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.text-input-section {
+    margin-bottom: 16px;
+}
+
+.text-input-section label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.text-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: inherit;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+.text-input:focus {
+    outline: none;
+    border-color: #0066cc;
+}
+
+.generate-button {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.error-message {
+    color: #d32f2f;
+    font-size: 14px;
+    margin-top: 8px;
+    padding: 8px;
+    background-color: #ffebee;
+    border-radius: 4px;
+}
+
+.success-message {
+    color: #2e7d32;
+    font-size: 14px;
+    margin-top: 8px;
+    padding: 8px;
+    background-color: #e8f5e9;
+    border-radius: 4px;
+}
+
